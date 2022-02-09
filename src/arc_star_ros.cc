@@ -48,6 +48,7 @@ int main(int argc, char **argv) {
 
   ros::init(argc, argv, "arc_star_ros");
   ros::NodeHandle nh;
+<<<<<<< HEAD
   ros::NodeHandle nh_private("~");
 
   // Check if sensor width and height match
@@ -65,6 +66,10 @@ int main(int argc, char **argv) {
     ROS_INFO("Header file parameters: %i, %i", detector.getSensorWidth(), detector.getSensorHeight());
     return 0;
   }
+=======
+
+//  detector = acd::ArcStarDetector();
+>>>>>>> 0f00b7cffad228f6dc04d55cc6e164bb6b2259ed
 
   corner_pub = nh.advertise<dvs_msgs::EventArray>("corners", 1);
   ros::Subscriber event_sub = nh.subscribe("events", 0, &EventMsgCallback);
@@ -73,3 +78,7 @@ int main(int argc, char **argv) {
 
   return 0;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 0f00b7cffad228f6dc04d55cc6e164bb6b2259ed
