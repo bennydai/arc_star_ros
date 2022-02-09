@@ -32,9 +32,6 @@ private:
   // static const int kSensorWidth_ = 346;
   // static const int kSensorHeight_= 260;
 
-  static const int kSensorWidth_ = 240;
-  static const int kSensorHeight_= 180;
-
   // Surface of Active Events
   Eigen::MatrixXd sae_[2];
   Eigen::MatrixXd sae_latest_[2];
