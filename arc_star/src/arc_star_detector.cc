@@ -24,7 +24,6 @@ ArcStarDetector::ArcStarDetector() :
 ArcStarDetector::~ArcStarDetector() {
 }
 
-<<<<<<< HEAD
 int ArcStarDetector::getSensorWidth()
 {
   return kSensorWidth_;
@@ -34,9 +33,6 @@ int ArcStarDetector::getSensorHeight()
 {
   return kSensorHeight_;
 }
-
-=======
->>>>>>> 0f00b7cffad228f6dc04d55cc6e164bb6b2259ed
 
 bool ArcStarDetector::isCorner(double et, int ex, int ey, bool ep) {
     // Update Surface of Active Events
